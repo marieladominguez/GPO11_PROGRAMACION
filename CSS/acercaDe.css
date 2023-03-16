@@ -1,4 +1,7 @@
-
+body{
+    margin: 0%;
+    background-color: #0f0e17;
+}
 
 .titulo{
     color: #fffffe;
@@ -34,4 +37,9 @@
     margin-right: 500px;
     padding-top: 3px;
     padding-bottom: 3px;
+}
+h3{
+    color: #fffffe;
+    font-family: 'Roboto', sans-serif;
+    
 }
