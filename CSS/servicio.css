@@ -1,0 +1,37 @@
+
+
+.titulo{
+    color: #fffffe;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(226, 179, 98);
+    height: 60px;
+    
+}
+
+#nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    color: black;
+
+}
+#logo{
+    width: 200px;
+    margin-left: 3px;
+    margin-right: 500px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
