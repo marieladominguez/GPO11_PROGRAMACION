@@ -88,6 +88,7 @@ body{
     margin-top: 100px;
     margin-left: 30px;
     margin-right: 30px;
+    margin-bottom: 100px;
     display: flex;
     flex-direction: row;
     justify-content: baseline;
@@ -130,4 +131,27 @@ body{
     border-color: #ff8906;
     border-style: solid;
     padding: 6px 6px 6px 6px;
+}
+
+.pie{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: #b6b8cb;
+    
+    border-color: #ff8906;
+    border-style: solid;
+    margin: 6px 6px 6px 6px;
+
+    
+}
+.pie a{
+    text-decoration: none;
+    color: #ff8906;
+    margin-left: 8px;
+}
+h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    color: #b6b8cb;
 }
