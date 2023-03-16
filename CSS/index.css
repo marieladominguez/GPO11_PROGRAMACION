@@ -28,7 +28,7 @@ body{
     padding-bottom: 15px;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-size: 1.1rem;
     color: black;
 
 }
@@ -82,4 +82,39 @@ body{
     margin-bottom: 45px;
     margin-left: 130px;
     
+}
+
+.column{
+    margin-top: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    font-family: 'Roboto', sans-serif;
+
+}
+#col1{
+    display: flex;
+    align-items: center;
+    width: 30%;
+    margin: auto;
+    text-align: justify;
+    color:  #b6b8cb ;
+}
+#col2{
+    display: flex;
+    align-items: center;
+    width: 30%;
+    margin: auto;
+    text-align: justify;
+    color:  #b6b8cb;
+}
+#col3{
+    display: flex;
+    align-items: center;
+    width: 30%;
+    margin: auto;
+    text-align: justify;
+    color:  #b6b8cb;
 }
