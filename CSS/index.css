@@ -1,2 +1,14 @@
 /* esto es una prueba */
+body{
+    background-image: url(../img/OIP.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: auto;
+    display: flex;
 
+}
+.titulo{
+    display: flex;
+    color: aliceblue;
+    }
