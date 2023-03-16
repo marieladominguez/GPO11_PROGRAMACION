@@ -7,7 +7,7 @@ body{
     color: #fffffe;
     text-align: center;
     margin-top: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 70px;
     font-family: 'Roboto', sans-serif;
 }
 .nav-bar{
@@ -38,8 +38,21 @@ body{
     padding-top: 3px;
     padding-bottom: 3px;
 }
+#presentacion{
+    margin-left: 3vw;
+}
+
 h3{
     color: #fffffe;
     font-family: 'Roboto', sans-serif;
-    
+    font-size: 1.15rem;
+    margin-bottom: 40px;
+        
+}
+.lista a{
+    text-decoration: none;
+    color: #fffffe;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.15rem;
+
 }

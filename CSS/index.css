@@ -94,6 +94,10 @@ body{
     font-family: 'Roboto', sans-serif;
 
 }
+.column a {
+    text-decoration: none;
+    color: #ff8906 ;
+}
 #col1{
     display: flex;
     align-items: center;
@@ -101,6 +105,9 @@ body{
     margin: auto;
     text-align: justify;
     color:  #b6b8cb ;
+    border-color: #ff8906;
+    border-style: solid;
+    padding: 6px 6px 6px 6px;
 }
 #col2{
     display: flex;
@@ -109,6 +116,9 @@ body{
     margin: auto;
     text-align: justify;
     color:  #b6b8cb;
+    border-color: #ff8906;
+    border-style: solid;
+    padding: 6px 6px 6px 6px;
 }
 #col3{
     display: flex;
@@ -117,4 +127,7 @@ body{
     margin: auto;
     text-align: justify;
     color:  #b6b8cb;
+    border-color: #ff8906;
+    border-style: solid;
+    padding: 6px 6px 6px 6px;
 }
