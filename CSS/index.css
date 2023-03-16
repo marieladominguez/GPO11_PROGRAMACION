@@ -1,14 +1,85 @@
-/* esto es una prueba */
+/* ahora no es una prueba */
 body{
-    background-image: url(../img/OIP.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    width: auto;
-    display: flex;
+    background-color: #0f0e17;
+    margin: 0%;
 
 }
 .titulo{
+    color: #fffffe;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+.nav-bar{
     display: flex;
-    color: aliceblue;
-    }
+    flex-direction: row;
+    background-color: rgb(226, 179, 98);
+    height: 60px;
+    
+}
+
+#nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: black;
+
+}
+#logo{
+    width: 200px;
+    margin-left: 3px;
+    margin-right: 500px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.row{
+    display: flex;
+    flex-direction:row;
+    justify-content: baseline;
+}
+
+#h3{
+    color: #fffffe;
+    margin-left: 20px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+#parrafo{
+    width: 50%;
+    margin-left: 9px;
+    margin-right: 10px;
+
+}
+#parrafo #p1{
+    color: #b6b8cb;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    
+}
+#imagen{
+    background-color: #fffffe;
+    width: 50%;
+    margin-left: 3px;
+    margin-right: 15px;
+}
+#logo_curso{
+    margin-top: 45px;
+    margin-bottom: 45px;
+    margin-left: 130px;
+    
+}
