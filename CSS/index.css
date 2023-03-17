@@ -139,6 +139,7 @@ body{
     justify-content: space-evenly;
     color: #b6b8cb;
     font-family: 'Roboto', sans-serif;
+    font-size: .9rem;
     
 
     
@@ -147,10 +148,11 @@ body{
     text-decoration: none;
     color: #ff8906;
     margin-left: 8px;
+    font-size: .9rem;
 }
 h5{
     font-family: 'Roboto', sans-serif;
-    font-size: 1.2rem;
+    font-size: .9rem;
     color: #b6b8cb;
 }
 .container{
@@ -162,7 +164,7 @@ h5{
 }
 h6{
     font-family: 'Roboto', sans-serif;
-    font-size: .8rem;
+    font-size: .6rem;
     color: #b6b8cb;
     text-align: center;
 }
