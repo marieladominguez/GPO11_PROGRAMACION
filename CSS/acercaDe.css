@@ -56,3 +56,16 @@ h3{
     font-size: 1.15rem;
 
 }
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.row a{
+    text-decoration: none;
+    color: #fffffe;
+}
+#fotos{
+    color: #fffffe;
+}
