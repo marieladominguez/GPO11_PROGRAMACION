@@ -14,7 +14,7 @@ body{
 .nav-bar{
     display: flex;
     flex-direction: row;
-    background-color: rgb(226, 179, 98);
+    background-color: #e2b362;
     height: 60px;
     
 }

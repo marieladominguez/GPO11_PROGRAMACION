@@ -1,5 +1,6 @@
 body{
     margin: 0%;
+    background-color: #0f0e17;
 }
 
 .titulo{
@@ -36,4 +37,39 @@ body{
     margin-right: 500px;
     padding-top: 3px;
     padding-bottom: 3px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    background-color: #e2b362;
+    width: 80%;
+    margin: auto;
+    
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin: auto;
+    height: 400px;
+}
+.derecha{
+    margin: auto;
+    width: 50%;
+}
+.izquierda{
+    margin-right: 60px;
+    margin-top: 60px;
+}
+
+
+
+#formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    
+
 }
