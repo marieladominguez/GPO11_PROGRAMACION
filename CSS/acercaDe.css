@@ -13,8 +13,8 @@ body{
 .nav-bar{
     display: flex;
     flex-direction: row;
-    background-color: rgb(226, 179, 98);
-    height: 60px;
+    background-color:#ff8906;
+    height: 70px;
     
 }
 
@@ -23,18 +23,20 @@ body{
     flex-direction: row;
     justify-content: end;
     margin-left: 20px;
-    padding-top: 20px;
+    padding-top: 25px;
     padding-bottom: 15px;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-size: 1.1rem;
     color: black;
+    
 
 }
 #logo{
-    width: 200px;
+    width: auto;
+    border-radius: 5px;
     margin-left: 3px;
-    margin-right: 500px;
+    margin-right: 530px;
     padding-top: 3px;
     padding-bottom: 3px;
 }
@@ -68,4 +70,45 @@ h3{
 }
 #fotos{
     color: #fffffe;
+}
+.pie{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: #b6b8cb;
+    font-family: 'Roboto', sans-serif;
+    font-size: .9rem;
+    
+
+    
+}
+.pie a{
+    text-decoration: none;
+    color: #ff8906;
+    margin-left: 8px;
+    font-size: .9rem;
+}
+h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: .9rem;
+    color: #b6b8cb;
+}
+.container{
+    border-color: #ff8906;
+    border-style: solid;
+    margin: 6px 6px 6px 6px;
+
+
+}
+h6{
+    font-family: 'Roboto', sans-serif;
+    font-size: .6rem;
+    color: #b6b8cb;
+    text-align: center;
+}
+#logo3{
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    margin-top: 50px;
 }

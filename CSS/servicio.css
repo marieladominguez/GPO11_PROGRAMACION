@@ -1,10 +1,10 @@
 body{
-    background-color: #fffffe;
+    background-color: #0f0e17;
     margin: 0%;
 }
 
 .titulo{
-    color: #0f0e17;
+    color:#fffffe;
     text-align: center;
     margin-top: 40px;
     margin-bottom: 40px;
@@ -13,8 +13,8 @@ body{
 .nav-bar{
     display: flex;
     flex-direction: row;
-    background-color: rgb(226, 179, 98);
-    height: 60px;
+    background-color:#ff8906;
+    height: 70px;
     
 }
 
@@ -23,29 +23,37 @@ body{
     flex-direction: row;
     justify-content: end;
     margin-left: 20px;
-    padding-top: 20px;
+    padding-top: 25px;
     padding-bottom: 15px;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-size: 1.1rem;
     color: black;
+    
 
 }
 #logo{
-    width: 200px;
+    width: auto;
+    border-radius: 5px;
     margin-left: 3px;
-    margin-right: 500px;
+    margin-right: 530px;
     padding-top: 3px;
     padding-bottom: 3px;
 }
-h3{
-    color: #2e2f3e;
+h3 {
+    color: #fffffe;
     font-family: 'Roboto', sans-serif;
+}
+h2 {
+    color: #fffffe;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 30px;
 }
 .row{
     display: flex;
     flex-direction:row;
-    justify-content: space-between;
+    justify-content: stretch;
+    margin: 40px 40px;
         
 }
 .row a{
@@ -57,6 +65,8 @@ h3{
 }
 button{
     background-color: #ff8906;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .row_1{
@@ -71,4 +81,81 @@ button{
     background-color: #ff8906;
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
+}
+#imc_img{
+    width: 250px;
+    padding: 30px 30px;
+}
+#medidas_img{
+    width: 400px;
+    padding: 10px 10px;
+    margin-top: 30px;
+}
+#geo_img{
+    width: 250px;
+    padding: 30px 30px;
+    
+}
+h3{
+    text-align: center;
+
+}
+#s1 {
+    border-color: #ff8906;
+    border-style: solid;
+    margin: 3px 6px;
+}
+#s2 {
+    border-color: #ff8906;
+    border-style: solid;
+    margin: 3px 6px;
+}
+#s3 {
+    border-color: #ff8906;
+    border-style: solid;
+    margin: 3px 6px;
+}
+
+
+
+.pie{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: #b6b8cb;
+    font-family: 'Roboto', sans-serif;
+    font-size: .9rem;
+    
+
+    
+}
+.pie a{
+    text-decoration: none;
+    color: #ff8906;
+    margin-left: 8px;
+    font-size: .9rem;
+}
+h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: .9rem;
+    color: #b6b8cb;
+}
+.container{
+    border-color: #ff8906;
+    border-style: solid;
+    margin: 6px 6px 6px 6px;
+
+
+}
+h6{
+    font-family: 'Roboto', sans-serif;
+    font-size: .6rem;
+    color: #b6b8cb;
+    text-align: center;
+}
+#logo3{
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    margin-top: 50px;
 }
