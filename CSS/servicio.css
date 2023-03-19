@@ -88,7 +88,8 @@ h2 {
 .row_1{
     display: flex;
     flex-direction:row;
-    justify-content: space-between;
+    justify-content:space-around;
+    margin-bottom: 100px;
         
 }
 .row_1 a{
@@ -130,6 +131,31 @@ h3{
     border-color: #ff8906;
     border-style: solid;
     margin: 3px 6px;
+}
+#img_calc{
+    width: 300px;
+}
+#img_est{
+    width: 300px;
+}
+#img_imp{
+    width: 300px;
+}
+
+.row_1 #s1{
+    border-color: #ff8906;
+    border-style: solid;
+    padding: 10px 10px;
+}
+.row_1 #s2{
+    border-color: #ff8906;
+    border-style: solid;
+    padding: 10px 10px;
+}
+.row_1 #s3{
+    border-color: #ff8906;
+    border-style: solid;
+    padding: 10px 10px;
 }
 
 
