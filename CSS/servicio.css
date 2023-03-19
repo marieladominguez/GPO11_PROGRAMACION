@@ -63,10 +63,26 @@ h2 {
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
 }
-button{
+#s1 button{
     background-color: #ff8906;
     border-radius: 5px;
     font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+    margin-left: 130px;
+}
+#s2 button {
+    background-color: #ff8906;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 80px;
+    margin-left: 190px;
+}
+#s3 button{
+    background-color: #ff8906;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+    margin-left: 130px;
 }
 
 .row_1{
