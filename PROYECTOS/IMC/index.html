@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,19 +10,21 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/core-js/2.4.1/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 </head>
+
 <body>
     <header>
         <div class="barra">
             <img src="../../img/imc1.jpg" alt="" id="logo">
             <div class="nav-bar">
-                
+
                 <a href="../../index.html">INICIO</a>
                 <a href="../../acercaDe.html">ACERCA DE</a>
                 <a href="">SERVICIOS</a>
                 <a href="../../contacto.html">CONTACTO</a>
-                <a href="../../index.html">AR-TECH</a>
             </div>
         </div>
         <div class="titulo">
@@ -29,21 +32,28 @@
             <h3>VEAMOS QUE SALE!!!</h3>
         </div>
 
-        
+
     </header>
     <main>
         <div class="container">
             <div class="box-1">
                 <h2>¿Qué es nutrición?</h2>
-                <p>La nutrición es el proceso biológico que ocurre en un ser vivo cuando su organismo absorbe, de los alimentos y líquidos, los nutrientes que necesita para su crecimiento y el desarrollo de las funciones vitales. A través de la alimentación, el organismo incorpora hidratos de carbono, vitaminas, minerales, proteínas y grasas.
-                Los seres humanos consumen distintos tipos de alimentos y, luego de procesos físicos y químicos, el cuerpo incorpora los nutrientes de estos alimentos y los transforma en energía para desarrollar sus principales funciones, como el movimiento, la reproducción y el crecimiento. Una buena y variada alimentación ayuda al correcto funcionamiento del organismo y, para eso, se deben incluir en las comidas distintos tipos de alimentos que aporten los diferentes nutrientes.
-                Fuente: <a href="https://concepto.de/nutricion/#ixzz7wcLS3u9H">Concepto.de</a>                       
-                 
+                <p>La nutrición es el proceso biológico que ocurre en un ser vivo cuando su organismo absorbe, de los
+                    alimentos y líquidos, los nutrientes que necesita para su crecimiento y el desarrollo de las
+                    funciones vitales. A través de la alimentación, el organismo incorpora hidratos de carbono,
+                    vitaminas, minerales, proteínas y grasas.
+                    Los seres humanos consumen distintos tipos de alimentos y, luego de procesos físicos y químicos, el
+                    cuerpo incorpora los nutrientes de estos alimentos y los transforma en energía para desarrollar sus
+                    principales funciones, como el movimiento, la reproducción y el crecimiento. Una buena y variada
+                    alimentación ayuda al correcto funcionamiento del organismo y, para eso, se deben incluir en las
+                    comidas distintos tipos de alimentos que aporten los diferentes nutrientes.
+                    Fuente: <a href="https://concepto.de/nutricion/#ixzz7wcLS3u9H">Concepto.de</a>
+
                 </p>
             </div>
             <div class="box-2">
                 <h4>INGRESE LOS VALORES</h4>
-                
+
                 <form action="" class="formulario">
                     <label for="nombre" name="nombre" id="nombre">Ingrese su nombre</label>
                     <input type="text" name="nombre" id="nombre" placeholder="Nombre Completo">
@@ -57,26 +67,25 @@
                     </select>
                     <label for="peso">Peso en kg:</label>
                     <input type="number" id="peso" name="peso" required>
-                    <br>
                     <label for="altura">Altura en cm:</label>
-                    <input type="number" id="altura" name="altura" required>
-                    <br>
+                    <input type="number" id="altura" name="altura" required><br>
                     <button type="button" onclick="calcularIMC()">Calcular IMC</button>
                 </form>
                 <p id="resultado"></p>
                 <script src="calculo_imc.js"></script>
-                   
-                    </html>
-                    
 
-                </form>
-                
-                
+</html>
 
 
-            </div>
-        </div>
-    </main>
-    <script src="./JS/script.js"></script>
+</form>
+
+
+
+
+</div>
+</div>
+</main>
+<script src="./JS/script.js"></script>
 </body>
+
 </html>
