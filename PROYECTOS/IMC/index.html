@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CALCULO IMC</title>
     <link rel="stylesheet" href="./CSS/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
 
 </head>
 <body>
@@ -13,17 +16,16 @@
         <div class="barra">
             <img src="../../img/imc1.jpg" alt="" id="logo">
             <div class="nav-bar">
-                <a href=""><img src="" alt=""></a>
                 <a href="../../index.html">INICIO</a>
-                <a href="">ACERCA DE</a>
-                <a href="">SERVICIOS</a>
-                <a href="">CONTACTO</a>
-                <a href="../../index.html">AR-TECH</a>
+                <a href="../../acercaDe.html">ACERCA DE</a>
+                <a href="../../servicios.html">SERVICIOS</a>
+                <a href="../../contacto.html">CONTACTO</a>
+               
             </div>
         </div>
         <div class="titulo">
             <h1>CALCULADORA DE IMC</h1>
-            <h3>VEAMOS QUE TAN GORDITO ESTAS!!!</h3>
+            <h3>VEAMOS QUE SALE!!!</h3>
         </div>
 
         
@@ -31,7 +33,12 @@
     <main>
         <div class="container">
             <div class="box-1">
-                <p>INFOGRAFIA</p>
+                <h2>¿Qué es nutrición?</h2>
+                <p>La nutrición es el proceso biológico que ocurre en un ser vivo cuando su organismo absorbe, de los alimentos y líquidos, los nutrientes que necesita para su crecimiento y el desarrollo de las funciones vitales. A través de la alimentación, el organismo incorpora hidratos de carbono, vitaminas, minerales, proteínas y grasas.
+                Los seres humanos consumen distintos tipos de alimentos y, luego de procesos físicos y químicos, el cuerpo incorpora los nutrientes de estos alimentos y los transforma en energía para desarrollar sus principales funciones, como el movimiento, la reproducción y el crecimiento. Una buena y variada alimentación ayuda al correcto funcionamiento del organismo y, para eso, se deben incluir en las comidas distintos tipos de alimentos que aporten los diferentes nutrientes.
+                Fuente: <a href="https://concepto.de/nutricion/#ixzz7wcLS3u9H">Concepto.de</a>                       
+                 
+                </p>
             </div>
             <div class="box-2">
                 <h4>INGRESE LOS VALORES</h4>
@@ -43,9 +50,9 @@
                     <input type="number_edad" name="number_edad" id="number_edad" placeholder="Edad">
                     <label for="sexo">Selecciona tu sexo</label>
                     <select name="sexo" id="sexo">
-                        <option value="Masculino">Masculino</option>
-                        <option value="Femenino">Femenino</option>
-                        <option value="Otros">Otros</option>
+                        <option value="Masculino" id="option">Masculino</option>
+                        <option value="Femenino" id="option">Femenino</option>
+                        <option value="Otros" id="option">Otros</option>
                     </select>
                     <label for="altura" name="altura" id="altura">Ingrese su altura</label>
                     <input type="number" name="altura" id="altura" placeholder="Altura en metros">
