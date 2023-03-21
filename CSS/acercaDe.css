@@ -41,7 +41,7 @@ body{
     padding-bottom: 3px;
 }
 #presentacion{
-    margin-left: 3vw;
+    margin-left: 30px;
 }
 
 h3{
@@ -51,6 +51,7 @@ h3{
     margin-bottom: 40px;
         
 }
+
 .lista a{
     text-decoration: none;
     color: #fffffe;
@@ -61,7 +62,8 @@ h3{
 .row{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: stretch;
+    margin-bottom: 100px;
 }
 
 .row a{
@@ -71,6 +73,28 @@ h3{
 #fotos{
     color: #fffffe;
 }
+
+
+.enlace-con-imagen{
+    position: relative;
+    
+}
+.enlace-con-imagen:hover::after{
+    content:"";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    margin-left: 500px;
+    background-image: url("../img/calculadora.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+
+
 .pie{
     display: flex;
     flex-direction: row;

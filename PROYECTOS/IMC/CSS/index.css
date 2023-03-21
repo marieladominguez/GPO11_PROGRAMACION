@@ -1,0 +1,30 @@
+body{
+    background-color:rgb(152, 182, 102);
+    
+}
+.nav-bar{
+    position: fixed;
+    top: 10px;
+    right: 20px;
+    
+}
+.nav-bar a{
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+}
+#logo{
+    width: 100px;
+}
+
+.titulo{
+    margin-top: 100px;
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    margin-top: 100px;
+}
