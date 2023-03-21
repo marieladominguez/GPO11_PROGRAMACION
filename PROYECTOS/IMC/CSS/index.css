@@ -50,4 +50,41 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    width: 300px;
+}
+input{
+    height: 25px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    
+}
+input::placeholder{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    
+}
+#option{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    
+}
+#sexo{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: rgb(125, 125, 125);
+}
+
+.box-1{
+    width: 40%;
+}
+.box-1 h2{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+
+}
+.box-1 p{
+    font-family: 'Raleway', sans-serif;
+    text-align: justify;
 }
