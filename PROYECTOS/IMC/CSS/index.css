@@ -16,14 +16,18 @@ body{
     margin: 10px;
     text-decoration: none;
     color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
 }
 #logo{
+    
     width: 100px;
 }
 
 .titulo{
     margin-top: 30px;
     text-align: center;
+    font-family: 'Raleway', sans-serif;
        
 }
 .container{
@@ -31,10 +35,11 @@ body{
     flex-direction: row;
     justify-content: space-around;
     position: relative;
-    margin-top: 100px;
+    margin-top: 50px;
+    font-family: 'Raleway', sans-serif;
 }
 .titulo h1{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Raleway', sans-serif;
     font-size: 40px;
 }
 
@@ -43,4 +48,41 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    width: 300px;
+}
+input{
+    height: 25px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    
+}
+input::placeholder{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    
+}
+#option{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    
+}
+#sexo{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: rgb(125, 125, 125);
+}
+
+.box-1{
+    width: 40%;
+}
+.box-1 h2{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+
+}
+.box-1 p{
+    font-family: 'Raleway', sans-serif;
+    text-align: justify;
 }
