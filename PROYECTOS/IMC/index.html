@@ -55,11 +55,19 @@
                         <option value="Femenino" id="option">Femenino</option>
                         <option value="Otros" id="option">Otros</option>
                     </select>
-                    <label for="altura" name="altura" id="altura">Ingrese su altura</label>
-                    <input type="number" name="altura" id="altura" placeholder="Altura en metros">
-                    <label for="peso" name="peso" id="peso">Ingrese su peso</label>
-                    <input type="number" name="peso" id="peso" placeholder="Peso en Kg">
-
+                    <label for="peso">Peso en kg:</label>
+                    <input type="number" id="peso" name="peso" required>
+                    <br>
+                    <label for="altura">Altura en cm:</label>
+                    <input type="number" id="altura" name="altura" required>
+                    <br>
+                    <button type="button" onclick="calcularIMC()">Calcular IMC</button>
+                </form>
+                <p id="resultado"></p>
+                <script src="calculo_imc.js"></script>
+                   
+                    </html>
+                    
 
                 </form>
                 
